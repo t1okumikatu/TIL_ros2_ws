@@ -1,0 +1,5 @@
+  File "/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/command_subscriber_action.py", line 18
+    def enc_callback_R(gpio,level,tick)
+                                       ^
+SyntaxError: expected ':'
+

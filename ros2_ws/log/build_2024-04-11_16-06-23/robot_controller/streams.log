@@ -1,0 +1,25 @@
+[6.926s] Invoking command in '/home/keime/ros2_ws/src/robot_controller': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[9.521s] running egg_info
+[9.527s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[9.529s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[9.531s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[9.533s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[9.535s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[9.552s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[9.567s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[9.568s] running build
+[9.570s] running build_py
+[9.571s] copying robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller
+[9.575s] running install
+[9.578s] running install_lib
+[9.586s] copying /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[9.593s] byte-compiling /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/command_subscriber_action.py to command_subscriber_action.cpython-310.pyc
+[9.599s] Sorry: IndentationError: expected an indented block after 'else' statement on line 46 (command_subscriber_action.py, line 47)
+[9.601s] running install_data
+[9.602s] running install_egg_info
+[9.618s] removing '/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[9.622s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[9.636s] running install_scripts
+[9.834s] Installing action script to /home/keime/ros2_ws/install/robot_controller/lib/robot_controller
+[9.837s] writing list of installed files to '/home/keime/ros2_ws/build/robot_controller/install.log'
+[10.097s] Invoked command in '/home/keime/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data

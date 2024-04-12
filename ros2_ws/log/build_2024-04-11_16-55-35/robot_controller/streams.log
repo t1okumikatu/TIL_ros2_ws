@@ -1,0 +1,29 @@
+[6.915s] Invoking command in '/home/keime/ros2_ws/src/robot_controller': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[9.551s] running egg_info
+[9.557s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[9.559s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[9.562s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[9.563s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[9.565s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[9.582s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[9.594s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[9.596s] running build
+[9.597s] running build_py
+[9.598s] copying robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller
+[9.603s] running install
+[9.605s] running install_lib
+[9.613s] copying /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[9.621s] byte-compiling /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/command_subscriber_action.py to command_subscriber_action.cpython-310.pyc
+[9.624s]   File "/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/command_subscriber_action.py", line 18
+[9.625s]     def enc_callback_R(gpio,level,tick)
+[9.627s]                                        ^
+[9.628s] SyntaxError: expected ':'
+[9.629s] 
+[9.630s] running install_data
+[9.631s] running install_egg_info
+[9.644s] removing '/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[9.648s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[9.661s] running install_scripts
+[9.862s] Installing action script to /home/keime/ros2_ws/install/robot_controller/lib/robot_controller
+[9.865s] writing list of installed files to '/home/keime/ros2_ws/build/robot_controller/install.log'
+[10.125s] Invoked command in '/home/keime/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.003768] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005019] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.005502] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.164493] (-) TimerEvent: {}
+[0.269380] (-) TimerEvent: {}
+[0.370575] (-) TimerEvent: {}
+[0.471759] (-) TimerEvent: {}
+[0.572943] (-) TimerEvent: {}
+[0.674157] (-) TimerEvent: {}
+[0.775334] (-) TimerEvent: {}
+[0.876630] (-) TimerEvent: {}
+[0.977811] (-) TimerEvent: {}
+[1.079012] (-) TimerEvent: {}
+[1.180275] (-) TimerEvent: {}
+[1.281632] (-) TimerEvent: {}
+[1.382879] (-) TimerEvent: {}
+[1.484146] (-) TimerEvent: {}
+[1.585360] (-) TimerEvent: {}
+[1.686551] (-) TimerEvent: {}
+[1.787768] (-) TimerEvent: {}
+[1.888910] (-) TimerEvent: {}
+[1.990156] (-) TimerEvent: {}
+[2.091456] (-) TimerEvent: {}
+[2.192675] (-) TimerEvent: {}
+[2.293881] (-) TimerEvent: {}
+[2.395116] (-) TimerEvent: {}
+[2.496526] (-) TimerEvent: {}
+[2.597896] (-) TimerEvent: {}
+[2.699069] (-) TimerEvent: {}
+[2.800454] (-) TimerEvent: {}
+[2.901957] (-) TimerEvent: {}
+[3.003378] (-) TimerEvent: {}
+[3.104682] (-) TimerEvent: {}
+[3.206032] (-) TimerEvent: {}
+[3.307421] (-) TimerEvent: {}
+[3.408691] (-) TimerEvent: {}
+[3.509942] (-) TimerEvent: {}
+[3.611803] (-) TimerEvent: {}
+[3.713092] (-) TimerEvent: {}
+[3.814278] (-) TimerEvent: {}
+[3.915455] (-) TimerEvent: {}
+[4.016779] (-) TimerEvent: {}
+[4.117958] (-) TimerEvent: {}
+[4.219124] (-) TimerEvent: {}
+[4.320367] (-) TimerEvent: {}
+[4.421524] (-) TimerEvent: {}
+[4.522765] (-) TimerEvent: {}
+[4.624060] (-) TimerEvent: {}
+[4.725234] (-) TimerEvent: {}
+[4.826415] (-) TimerEvent: {}
+[4.927653] (-) TimerEvent: {}
+[5.028858] (-) TimerEvent: {}
+[5.130037] (-) TimerEvent: {}
+[5.231230] (-) TimerEvent: {}
+[5.332546] (-) TimerEvent: {}
+[5.433737] (-) TimerEvent: {}
+[5.534952] (-) TimerEvent: {}
+[5.636167] (-) TimerEvent: {}
+[5.737378] (-) TimerEvent: {}
+[5.838589] (-) TimerEvent: {}
+[5.939791] (-) TimerEvent: {}
+[6.040953] (-) TimerEvent: {}
+[6.142101] (-) TimerEvent: {}
+[6.243251] (-) TimerEvent: {}
+[6.344501] (-) TimerEvent: {}
+[6.445814] (-) TimerEvent: {}
+[6.547061] (-) TimerEvent: {}
+[6.648405] (-) TimerEvent: {}
+[6.749827] (-) TimerEvent: {}
+[6.851313] (-) TimerEvent: {}
+[6.917395] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/keime/ros2_ws/build/robot_controller/build', 'install', '--record', '/home/keime/ros2_ws/build/robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/keime/ros2_ws/src/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SSH_CLIENT': '192.168.11.17 60822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/keime', 'OLDPWD': '/home/keime', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/keime/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/keime/ros2_ws/install/robot_controller:/home/keime/ros2_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/robot_controller', 'SSH_CONNECTION': '192.168.11.17 60822 192.168.11.35 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.951565] (-) TimerEvent: {}
+[7.053515] (-) TimerEvent: {}
+[7.156820] (-) TimerEvent: {}
+[7.258053] (-) TimerEvent: {}
+[7.359309] (-) TimerEvent: {}
+[7.460929] (-) TimerEvent: {}
+[7.562161] (-) TimerEvent: {}
+[7.663431] (-) TimerEvent: {}
+[7.764823] (-) TimerEvent: {}
+[7.866221] (-) TimerEvent: {}
+[7.967511] (-) TimerEvent: {}
+[8.068832] (-) TimerEvent: {}
+[8.170083] (-) TimerEvent: {}
+[8.271299] (-) TimerEvent: {}
+[8.372582] (-) TimerEvent: {}
+[8.473780] (-) TimerEvent: {}
+[8.574972] (-) TimerEvent: {}
+[8.676248] (-) TimerEvent: {}
+[8.777454] (-) TimerEvent: {}
+[8.878650] (-) TimerEvent: {}
+[8.979893] (-) TimerEvent: {}
+[9.081076] (-) TimerEvent: {}
+[9.182286] (-) TimerEvent: {}
+[9.283540] (-) TimerEvent: {}
+[9.384816] (-) TimerEvent: {}
+[9.486082] (-) TimerEvent: {}
+[9.575971] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.582077] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[9.584458] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[9.586274] (-) TimerEvent: {}
+[9.587538] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[9.589504] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[9.590856] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[9.607855] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[9.619413] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[9.621148] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[9.622203] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.623516] (robot_controller) StdoutLine: {'line': b'copying robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[9.627458] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[9.630605] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.638380] (robot_controller) StdoutLine: {'line': b'copying /home/keime/ros2_ws/build/robot_controller/build/lib/robot_controller/command_subscriber_action.py -> /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller\n'}
+[9.646052] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/command_subscriber_action.py to command_subscriber_action.cpython-310.pyc\n'}
+[9.659300] (robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.661083] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.677334] (robot_controller) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.681536] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info\n'}
+[9.686492] (-) TimerEvent: {}
+[9.695880] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.786748] (-) TimerEvent: {}
+[9.888033] (-) TimerEvent: {}
+[9.895027] (robot_controller) StdoutLine: {'line': b'Installing action script to /home/keime/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[9.898901] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/robot_controller/install.log'\n"}
+[9.988363] (-) TimerEvent: {}
+[10.089763] (-) TimerEvent: {}
+[10.161437] (robot_controller) CommandEnded: {'returncode': 0}
+[10.193193] (-) TimerEvent: {}
+[10.283397] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[10.290340] (-) EventReactorShutdown: {}

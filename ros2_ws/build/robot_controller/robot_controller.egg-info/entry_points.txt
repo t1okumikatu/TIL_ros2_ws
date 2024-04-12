@@ -1,0 +1,3 @@
+[console_scripts]
+action = robot_controller.command_subscriber_action:main
+
