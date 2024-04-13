@@ -59,8 +59,8 @@ def drive():
                 duty_R=-100.0
                 pi.set_PWM_dutycycle(MOT_R_1,0)
                 pi.set_PWM_dutycycle(MOT_R_2,-duty_R)
-                prev_count_R=count_R
-                err_prev_R=err_P
+        prev_count_R=count_R
+        err_prev_R=err_P
     if command_subscriber_action.target_speed_L>-0.01 and command_subscriber_action.target_speed_L<0.01:
         pi.set_PWM_dutycycle(MOT_L_1,0)
         pi.set_PWM_dutycycle(MOT_L_2,0)
@@ -81,8 +81,8 @@ def drive():
                 duty_L=-100.0
                 pi.set_PWM_dutycycle(MOT_L_1,0)
                 pi.set_PWM_dutycycle(MOT_L_2,-duty_L)
-                prev_count_L=count_L
-                err_prev_L=err_P
+        prev_count_L=count_L
+        err_prev_L=err_P
     t=threading.Timer(DURATION,drive)
     t.start()
 def init_variables_R():
