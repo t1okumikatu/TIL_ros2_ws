@@ -21,12 +21,13 @@ R:~$ sudo apt update
 R:~$ sudo apt upgrade
 R:~$ sudo apt install ros-humble-ros-base
 R:~$ sudo apt install ros-dev-tools
+==============================================
 R:$ source /opt/ros/humble/setup.bash
 R:$ ros2 run demo_nodes_cpp talker
 $ ssh keime@raspi.local
 R:$ source /opt/ros/humble/setup.bash
 R:$ ros2 run demo_nodes_py listener
-R:$ source /opt/ros/humble/setup.bash
+==============================================
 R:$ mkdir –p ~/ros2_ws/src
 R:$ cd ~/ros2_ws/src
 R:~/ros2_ws/src$ ros2 pkg create --build-type ament_python py_pubsub
@@ -36,6 +37,7 @@ entry_points={   'console_scripts': [
 'listener = py_pubsub.subscriber_member_function:main',
 ],   },
 R:~/ros2_ws/src/py_pubsub/py_pubsub
+==============================================
 $ cd  R:~$cd ros2_ws
 R:~/ros2_ws$ sudo rosdep init
 R:~/ros2_ws$ rosdep update
@@ -44,6 +46,7 @@ R:~/ros2_ws$ colcon build --packages-select py_pubsub
 R:~/ros2_ws$ source install/setup.bash
 R:~/ros2_ws$ source /opt/ros/humble/setup.bash 
 R:~/ros2_ws$ ros2 run py_pubsub listener
+===================================================-
 $ cd ros2_ws
 ~/ros2_ws$ source /opt/ros/humble/setup.bash
 ~/ros2_ws$ colcon build --packages-select py_pubsub
