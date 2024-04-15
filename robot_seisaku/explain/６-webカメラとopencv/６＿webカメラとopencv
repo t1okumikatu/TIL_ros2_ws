@@ -19,6 +19,7 @@ https://fclout.hateblo.jp/entry/2023/05/06/OpenCV%E3%82%92%E3%82%A4%E3%83%B3%E3%
 ■OpenCVをインストール  ターミナルで次のように入力してOpenCVをインストールします。  
 $ sudo apt install python3-pip 
 $ pip3 install opencv-contrib-python==4.6.0.66
+============================
 ■ROS2でOpenCVを利用  ROS2のPublisherノード、 Subscriberノードの間で画像をやり取りしてみます。
 新たにパッケージ「image_pubsub」を作成します。  
 ~/ros2_ws/src$ ros2 pkg create -–build-type ament_python image_pubsub 
