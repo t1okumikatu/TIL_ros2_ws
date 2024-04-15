@@ -7,7 +7,8 @@ ros2 humble インストール
 ------------------------------------------------
 ~$ sudo apt update   ~$ sudo apt upgrade
 ~$ sudo apt install openssh-server
-もう一つ、「avahi-daemon」をインストールして、設定したホスト名（raspi4）でログインできるようにします。
+もう一つ、「avahi-daemon」をインストールして、設定したホスト名
+（raspi.local）でログインできるようにします。
 インストールが完了したら一回再起動します。
 ~$ sudo apt install avahi-daemon
 ~$ sudo reboot 24-4-9
