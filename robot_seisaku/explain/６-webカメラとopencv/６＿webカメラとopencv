@@ -1,3 +1,11 @@
+Raspberry Pi専用ツールを使う
+　Raspberry Piにおけるさまざまな設定を簡単に、かつ一元的に行なうためのツールが「raspi-config」だ。ただしUbuntu Serverのイメージにはデフォルトでインストールされていないため、以下のコマンドでraspi-configパッケージをインストールしておこう。
+
+$ sudo apt install -y raspi-config
+インストールが完了したら、raspi-configコマンドをsudoつきで実行する。
+
+$ sudo raspi-config
+-------------
 3,000円未満の「Raspberry Pi Zero 2 W」でUbuntuを遊ぼう
 https://pc.watch.impress.co.jp/docs/column/ubuntu/1531425.html
 ----------------
