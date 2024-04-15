@@ -6,11 +6,11 @@ https://github.com/meuse-robotics/ros2_basic
 ros2 humble インストール
 ------------------------------------------------
 ~$ sudo apt update   ~$ sudo apt upgrade
-~$ sudo apt install openssh-server
+~$ sudo apt install openssh-server//インストール済かも
 もう一つ、「avahi-daemon」をインストールして、設定したホスト名
 （raspi.local）でログインできるようにします。
 インストールが完了したら一回再起動します。
-~$ sudo apt install avahi-daemon
+~$ sudo apt install avahi-daemon//インストール済かも
 ~$ sudo reboot 24-4-9
 R:~$ sudo apt install software-properties-common
 R:~$ sudo add-apt-repository universe
