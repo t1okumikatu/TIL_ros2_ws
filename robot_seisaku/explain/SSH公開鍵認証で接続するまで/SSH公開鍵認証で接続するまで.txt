@@ -1,1 +1,55 @@
 https://qiita.com/kazokmr/items/754169cfa996b24fcbf5
+Ubuntu 22.04 Server に Raspberry Pi カメラを設定する方法
+必要なもの:
+
+Raspberry Pi
+Raspberry Pi カメラモジュール
+Ubuntu 22.04 Server がインストールされた microSD カード
+モニターとキーボード (オプション)
+手順:
+
+Raspberry Pi に microSD カードを挿入し、電源を入れます。
+ブート時に、"Shift" キーを押しながら "Esc" キーを押して、ブートオプションを表示します。
+"Advanced options for Ubuntu" を選択し、"Troubleshooting" メニューから "Boot from Hard Drive" を選択します。
+Ubuntu が起動したら、ターミナルを開きます。
+以下のコマンドを実行して、Raspberry Pi カメラモジュール用のカーネルモジュールをインストールします。
+sudo apt install rpi-fb-v3-modules
+以下のコマンドを実行して、カメラモジュールを有効にします。
+sudo modprobe v4l2
+以下のコマンドを実行して、カメラプレビューを表示します。
+fswebcam -r 640x480 -d /dev/video0
+オプション:
+
+カメラプレビューを別のウィンドウで表示するには、以下のコマンドを実行します。
+fswebcam -r 640x480 -d /dev/video0 -p preview.png
+カメラをキャプチャして画像ファイルを保存するには、以下のコマンドを実行します。
+fswebcam -r 640x480 -d /dev/video0 -s image.jpg
+カメラをビデオとして記録するには、以下のコマンドを実行します。
+fswebcam -r 640x480 -d /dev/video0 -f video.mp4
+詳細情報:
+
+Raspberry Pi カメラモジュールに関する詳細情報については、Raspberry Pi ドキュメント: [無効な URL を削除しました] を参照してください。
+fswebcam コマンドに関する詳細情報については、man ページ: [無効な URL を削除しました] を参照してください。
+トラブルシューティング:
+
+カメラが検出されない場合は、以下のコマンドを実行して、カメラモジュールが接続されていることを確認してください。
+ls /dev/video*
+カメラプレビューが表示されない場合は、以下のコマンドを実行して、カメラモジュールが正しく動作していることを確認してください。
+v4l2-ctl --list-devices
+その他:
+
+Raspberry Pi カメラモジュールを使用して、画像認識、タイムラプス動画、ストリーミングなど、さまざまなタスクを実行できます。
+詳細については、Raspberry Pi カメラモジュールに関するオンラインチュートリアル: [無効な URL を削除しました] を参照してください。
+注意事項:
+
+カメラモジュールを使用する前に、必ず Raspberry Pi ドキュメントを読んでください。
+カメラモジュールは静電気に弱いので、取り扱いには注意してください。
+カメラモジュールを直射日光や高温多湿の場所にさらさないでください。
+参考情報:
+
+Raspberry Pi カメラモジュール: [無効な URL を削除しました]
+Raspberry Pi ドキュメント: https://www.raspberrypi.org/documentation/
+fswebcam コマンド: [無効な URL を削除しました]
+v4l2-ctl コマンド: [無効な URL を削除しました]
+この情報がお役に立てば幸いです。その他ご不明な点がございましたら、お気軽にお尋ねください。
+
