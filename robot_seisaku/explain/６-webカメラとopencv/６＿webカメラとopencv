@@ -26,7 +26,9 @@ https://fclout.hateblo.jp/entry/2023/05/06/OpenCV%E3%82%92%E3%82%A4%E3%83%B3%E3%
 =========================
 $ sudo apt install python3-pip
 $ pip3 install opencv-contrib-python==4.6.0.66
-
+===================================
+Ubuntu 22.04 LTS にスワップファイルを追加する
+https://chatnoirlibre.com/ubuntu-22-04-lts-swap/
 ============================
 ■ROS2でOpenCVを利用  ROS2のPublisherノード、 Subscriberノードの間で画像をやり取りしてみます。
 新たにパッケージ「image_pubsub」を作成します。  
