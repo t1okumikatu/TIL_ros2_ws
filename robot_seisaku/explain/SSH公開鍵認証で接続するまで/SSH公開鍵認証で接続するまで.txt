@@ -1,4 +1,10 @@
 https://qiita.com/kazokmr/items/754169cfa996b24fcbf5
+============================
+https://gemini.google.com/app/5e9ebc1c7fe27f26?utm_source=sem&utm_medium=paid-media&utm_campaign=q3jaJP_sem1
+=======================
+vcgencmd get_camera
+supported=1 detected=1, libcamera interfaces=0
+
 Ubuntu 22.04 Server に Raspberry Pi カメラを設定する方法
 必要なもの:
 
